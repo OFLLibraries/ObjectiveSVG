@@ -6,14 +6,453 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ADFF41F214DAB52B0085AA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFF41F114DAB52B0085AA96 /* Foundation.framework */; };
+		ADFF420314DAB53E0085AA96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFF420214DAB53E0085AA96 /* Cocoa.framework */; };
+		ADFF42BD14DAB5F20085AA96 /* SVGDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428614DAB5F20085AA96 /* SVGDocument.h */; };
+		ADFF42BE14DAB5F20085AA96 /* SVGDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428614DAB5F20085AA96 /* SVGDocument.h */; };
+		ADFF42BF14DAB5F20085AA96 /* SVGDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428714DAB5F20085AA96 /* SVGDocument.m */; };
+		ADFF42C014DAB5F20085AA96 /* SVGDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428714DAB5F20085AA96 /* SVGDocument.m */; };
+		ADFF42C114DAB5F20085AA96 /* SVGElement.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428814DAB5F20085AA96 /* SVGElement.h */; };
+		ADFF42C214DAB5F20085AA96 /* SVGElement.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428814DAB5F20085AA96 /* SVGElement.h */; };
+		ADFF42C314DAB5F20085AA96 /* SVGEllipse.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428914DAB5F20085AA96 /* SVGEllipse.h */; };
+		ADFF42C414DAB5F20085AA96 /* SVGEllipse.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428914DAB5F20085AA96 /* SVGEllipse.h */; };
+		ADFF42C514DAB5F20085AA96 /* SVGEllipse.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428A14DAB5F20085AA96 /* SVGEllipse.m */; };
+		ADFF42C614DAB5F20085AA96 /* SVGEllipse.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428A14DAB5F20085AA96 /* SVGEllipse.m */; };
+		ADFF42C714DAB5F20085AA96 /* SVGGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428B14DAB5F20085AA96 /* SVGGeometry.h */; };
+		ADFF42C814DAB5F20085AA96 /* SVGGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428B14DAB5F20085AA96 /* SVGGeometry.h */; };
+		ADFF42C914DAB5F20085AA96 /* SVGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428C14DAB5F20085AA96 /* SVGGeometry.m */; };
+		ADFF42CA14DAB5F20085AA96 /* SVGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428C14DAB5F20085AA96 /* SVGGeometry.m */; };
+		ADFF42CB14DAB5F20085AA96 /* SVGHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428D14DAB5F20085AA96 /* SVGHeader.h */; };
+		ADFF42CC14DAB5F20085AA96 /* SVGHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428D14DAB5F20085AA96 /* SVGHeader.h */; };
+		ADFF42CD14DAB5F20085AA96 /* SVGHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428E14DAB5F20085AA96 /* SVGHeader.m */; };
+		ADFF42CE14DAB5F20085AA96 /* SVGHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF428E14DAB5F20085AA96 /* SVGHeader.m */; };
+		ADFF42CF14DAB5F20085AA96 /* SVGPath.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428F14DAB5F20085AA96 /* SVGPath.h */; };
+		ADFF42D014DAB5F20085AA96 /* SVGPath.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428F14DAB5F20085AA96 /* SVGPath.h */; };
+		ADFF42D114DAB5F20085AA96 /* SVGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429014DAB5F20085AA96 /* SVGPath.m */; };
+		ADFF42D214DAB5F20085AA96 /* SVGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429014DAB5F20085AA96 /* SVGPath.m */; };
+		ADFF42D314DAB5F20085AA96 /* SVGPathCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429114DAB5F20085AA96 /* SVGPathCommand.h */; };
+		ADFF42D414DAB5F20085AA96 /* SVGPathCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429114DAB5F20085AA96 /* SVGPathCommand.h */; };
+		ADFF42D514DAB5F20085AA96 /* SVGPathCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429214DAB5F20085AA96 /* SVGPathCommand.m */; };
+		ADFF42D614DAB5F20085AA96 /* SVGPathCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429214DAB5F20085AA96 /* SVGPathCommand.m */; };
+		ADFF42D714DAB5F20085AA96 /* SVGPathCommandAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429314DAB5F20085AA96 /* SVGPathCommandAccumulator.h */; };
+		ADFF42D814DAB5F20085AA96 /* SVGPathCommandAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429314DAB5F20085AA96 /* SVGPathCommandAccumulator.h */; };
+		ADFF42D914DAB5F20085AA96 /* SVGPathCommandAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429414DAB5F20085AA96 /* SVGPathCommandAccumulator.m */; };
+		ADFF42DA14DAB5F20085AA96 /* SVGPathCommandAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429414DAB5F20085AA96 /* SVGPathCommandAccumulator.m */; };
+		ADFF42DB14DAB5F20085AA96 /* SVGPathCommandClosePath.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429514DAB5F20085AA96 /* SVGPathCommandClosePath.h */; };
+		ADFF42DC14DAB5F20085AA96 /* SVGPathCommandClosePath.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429514DAB5F20085AA96 /* SVGPathCommandClosePath.h */; };
+		ADFF42DD14DAB5F20085AA96 /* SVGPathCommandClosePath.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429614DAB5F20085AA96 /* SVGPathCommandClosePath.m */; };
+		ADFF42DE14DAB5F20085AA96 /* SVGPathCommandClosePath.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429614DAB5F20085AA96 /* SVGPathCommandClosePath.m */; };
+		ADFF42DF14DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429714DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h */; };
+		ADFF42E014DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429714DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h */; };
+		ADFF42E114DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429814DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m */; };
+		ADFF42E214DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429814DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m */; };
+		ADFF42E314DAB5F20085AA96 /* SVGPathCommandCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429914DAB5F20085AA96 /* SVGPathCommandCurveTo.h */; };
+		ADFF42E414DAB5F20085AA96 /* SVGPathCommandCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429914DAB5F20085AA96 /* SVGPathCommandCurveTo.h */; };
+		ADFF42E514DAB5F20085AA96 /* SVGPathCommandCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429A14DAB5F20085AA96 /* SVGPathCommandCurveTo.m */; };
+		ADFF42E614DAB5F20085AA96 /* SVGPathCommandCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429A14DAB5F20085AA96 /* SVGPathCommandCurveTo.m */; };
+		ADFF42E714DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429B14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h */; };
+		ADFF42E814DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429B14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h */; };
+		ADFF42E914DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429C14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m */; };
+		ADFF42EA14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429C14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m */; };
+		ADFF42EB14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429D14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h */; };
+		ADFF42EC14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429D14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h */; };
+		ADFF42ED14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429E14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m */; };
+		ADFF42EE14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF429E14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m */; };
+		ADFF42EF14DAB5F20085AA96 /* SVGPathCommandLineTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429F14DAB5F20085AA96 /* SVGPathCommandLineTo.h */; };
+		ADFF42F014DAB5F20085AA96 /* SVGPathCommandLineTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF429F14DAB5F20085AA96 /* SVGPathCommandLineTo.h */; };
+		ADFF42F114DAB5F20085AA96 /* SVGPathCommandLineTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A014DAB5F20085AA96 /* SVGPathCommandLineTo.m */; };
+		ADFF42F214DAB5F20085AA96 /* SVGPathCommandLineTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A014DAB5F20085AA96 /* SVGPathCommandLineTo.m */; };
+		ADFF42F314DAB5F20085AA96 /* SVGPathCommandMoveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A114DAB5F20085AA96 /* SVGPathCommandMoveTo.h */; };
+		ADFF42F414DAB5F20085AA96 /* SVGPathCommandMoveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A114DAB5F20085AA96 /* SVGPathCommandMoveTo.h */; };
+		ADFF42F514DAB5F20085AA96 /* SVGPathCommandMoveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A214DAB5F20085AA96 /* SVGPathCommandMoveTo.m */; };
+		ADFF42F614DAB5F20085AA96 /* SVGPathCommandMoveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A214DAB5F20085AA96 /* SVGPathCommandMoveTo.m */; };
+		ADFF42F714DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A314DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h */; };
+		ADFF42F814DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A314DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h */; };
+		ADFF42F914DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A414DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m */; };
+		ADFF42FA14DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A414DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m */; };
+		ADFF42FB14DAB5F20085AA96 /* SVGPathCommandResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A514DAB5F20085AA96 /* SVGPathCommandResolver.h */; };
+		ADFF42FC14DAB5F20085AA96 /* SVGPathCommandResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A514DAB5F20085AA96 /* SVGPathCommandResolver.h */; };
+		ADFF42FD14DAB5F20085AA96 /* SVGPathCommandResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A614DAB5F20085AA96 /* SVGPathCommandResolver.m */; };
+		ADFF42FE14DAB5F20085AA96 /* SVGPathCommandResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A614DAB5F20085AA96 /* SVGPathCommandResolver.m */; };
+		ADFF42FF14DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A714DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h */; };
+		ADFF430014DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A714DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h */; };
+		ADFF430114DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A814DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m */; };
+		ADFF430214DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42A814DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m */; };
+		ADFF430314DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A914DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h */; };
+		ADFF430414DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42A914DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h */; };
+		ADFF430514DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42AA14DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m */; };
+		ADFF430614DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42AA14DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m */; };
+		ADFF430714DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42AB14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h */; };
+		ADFF430814DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42AB14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h */; };
+		ADFF430914DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42AC14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m */; };
+		ADFF430A14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42AC14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m */; };
+		ADFF430B14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42AD14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h */; };
+		ADFF430C14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42AD14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h */; };
+		ADFF430D14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42AE14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m */; };
+		ADFF430E14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42AE14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m */; };
+		ADFF430F14DAB5F20085AA96 /* SVGRect.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42AF14DAB5F20085AA96 /* SVGRect.h */; };
+		ADFF431014DAB5F20085AA96 /* SVGRect.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42AF14DAB5F20085AA96 /* SVGRect.h */; };
+		ADFF431114DAB5F20085AA96 /* SVGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B014DAB5F20085AA96 /* SVGRect.m */; };
+		ADFF431214DAB5F20085AA96 /* SVGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B014DAB5F20085AA96 /* SVGRect.m */; };
+		ADFF431314DAB5F20085AA96 /* SVGShape.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B114DAB5F20085AA96 /* SVGShape.h */; };
+		ADFF431414DAB5F20085AA96 /* SVGShape.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B114DAB5F20085AA96 /* SVGShape.h */; };
+		ADFF431514DAB5F20085AA96 /* SVGShape.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B214DAB5F20085AA96 /* SVGShape.m */; };
+		ADFF431614DAB5F20085AA96 /* SVGShape.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B214DAB5F20085AA96 /* SVGShape.m */; };
+		ADFF431714DAB5F20085AA96 /* SVGShapeAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B314DAB5F20085AA96 /* SVGShapeAttribute.h */; };
+		ADFF431814DAB5F20085AA96 /* SVGShapeAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B314DAB5F20085AA96 /* SVGShapeAttribute.h */; };
+		ADFF431914DAB5F20085AA96 /* SVGShapeAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B414DAB5F20085AA96 /* SVGShapeAttribute.m */; };
+		ADFF431A14DAB5F20085AA96 /* SVGShapeAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B414DAB5F20085AA96 /* SVGShapeAttribute.m */; };
+		ADFF431B14DAB5F20085AA96 /* SVGShapeAttributeColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B514DAB5F20085AA96 /* SVGShapeAttributeColor.h */; };
+		ADFF431C14DAB5F20085AA96 /* SVGShapeAttributeColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B514DAB5F20085AA96 /* SVGShapeAttributeColor.h */; };
+		ADFF431D14DAB5F20085AA96 /* SVGShapeAttributeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B614DAB5F20085AA96 /* SVGShapeAttributeColor.m */; };
+		ADFF431E14DAB5F20085AA96 /* SVGShapeAttributeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B614DAB5F20085AA96 /* SVGShapeAttributeColor.m */; };
+		ADFF431F14DAB5F20085AA96 /* SVGShapeAttributeFillColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B714DAB5F20085AA96 /* SVGShapeAttributeFillColor.h */; };
+		ADFF432014DAB5F20085AA96 /* SVGShapeAttributeFillColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B714DAB5F20085AA96 /* SVGShapeAttributeFillColor.h */; };
+		ADFF432114DAB5F20085AA96 /* SVGShapeAttributeFillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B814DAB5F20085AA96 /* SVGShapeAttributeFillColor.m */; };
+		ADFF432214DAB5F20085AA96 /* SVGShapeAttributeFillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42B814DAB5F20085AA96 /* SVGShapeAttributeFillColor.m */; };
+		ADFF432314DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B914DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h */; };
+		ADFF432414DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42B914DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h */; };
+		ADFF432514DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42BA14DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m */; };
+		ADFF432614DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42BA14DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m */; };
+		ADFF432714DAB5F20085AA96 /* SVGShapeOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42BB14DAB5F20085AA96 /* SVGShapeOutline.h */; };
+		ADFF432814DAB5F20085AA96 /* SVGShapeOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF42BB14DAB5F20085AA96 /* SVGShapeOutline.h */; };
+		ADFF432914DAB5F20085AA96 /* SVGShapeOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42BC14DAB5F20085AA96 /* SVGShapeOutline.m */; };
+		ADFF432A14DAB5F20085AA96 /* SVGShapeOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF42BC14DAB5F20085AA96 /* SVGShapeOutline.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADFF41EE14DAB52B0085AA96 /* libSVG-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSVG-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFF41F114DAB52B0085AA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADFF41F514DAB52B0085AA96 /* SVG-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVG-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		ADFF420114DAB53E0085AA96 /* SVG-Mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "SVG-Mac.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFF420214DAB53E0085AA96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ADFF420514DAB53E0085AA96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ADFF420614DAB53E0085AA96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ADFF420714DAB53E0085AA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADFF420A14DAB53E0085AA96 /* SVG-Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVG-Mac-Prefix.pch"; sourceTree = "<group>"; };
+		ADFF428614DAB5F20085AA96 /* SVGDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGDocument.h; path = ../SVGDocument.h; sourceTree = "<group>"; };
+		ADFF428714DAB5F20085AA96 /* SVGDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGDocument.m; path = ../SVGDocument.m; sourceTree = "<group>"; };
+		ADFF428814DAB5F20085AA96 /* SVGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGElement.h; path = ../SVGElement.h; sourceTree = "<group>"; };
+		ADFF428914DAB5F20085AA96 /* SVGEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGEllipse.h; path = ../SVGEllipse.h; sourceTree = "<group>"; };
+		ADFF428A14DAB5F20085AA96 /* SVGEllipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGEllipse.m; path = ../SVGEllipse.m; sourceTree = "<group>"; };
+		ADFF428B14DAB5F20085AA96 /* SVGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGGeometry.h; path = ../SVGGeometry.h; sourceTree = "<group>"; };
+		ADFF428C14DAB5F20085AA96 /* SVGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGGeometry.m; path = ../SVGGeometry.m; sourceTree = "<group>"; };
+		ADFF428D14DAB5F20085AA96 /* SVGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGHeader.h; path = ../SVGHeader.h; sourceTree = "<group>"; };
+		ADFF428E14DAB5F20085AA96 /* SVGHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGHeader.m; path = ../SVGHeader.m; sourceTree = "<group>"; };
+		ADFF428F14DAB5F20085AA96 /* SVGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPath.h; path = ../SVGPath.h; sourceTree = "<group>"; };
+		ADFF429014DAB5F20085AA96 /* SVGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPath.m; path = ../SVGPath.m; sourceTree = "<group>"; };
+		ADFF429114DAB5F20085AA96 /* SVGPathCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommand.h; path = ../SVGPathCommand.h; sourceTree = "<group>"; };
+		ADFF429214DAB5F20085AA96 /* SVGPathCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommand.m; path = ../SVGPathCommand.m; sourceTree = "<group>"; };
+		ADFF429314DAB5F20085AA96 /* SVGPathCommandAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandAccumulator.h; path = ../SVGPathCommandAccumulator.h; sourceTree = "<group>"; };
+		ADFF429414DAB5F20085AA96 /* SVGPathCommandAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandAccumulator.m; path = ../SVGPathCommandAccumulator.m; sourceTree = "<group>"; };
+		ADFF429514DAB5F20085AA96 /* SVGPathCommandClosePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandClosePath.h; path = ../SVGPathCommandClosePath.h; sourceTree = "<group>"; };
+		ADFF429614DAB5F20085AA96 /* SVGPathCommandClosePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandClosePath.m; path = ../SVGPathCommandClosePath.m; sourceTree = "<group>"; };
+		ADFF429714DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandCurveRemembrance.h; path = ../SVGPathCommandCurveRemembrance.h; sourceTree = "<group>"; };
+		ADFF429814DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandCurveRemembrance.m; path = ../SVGPathCommandCurveRemembrance.m; sourceTree = "<group>"; };
+		ADFF429914DAB5F20085AA96 /* SVGPathCommandCurveTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandCurveTo.h; path = ../SVGPathCommandCurveTo.h; sourceTree = "<group>"; };
+		ADFF429A14DAB5F20085AA96 /* SVGPathCommandCurveTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandCurveTo.m; path = ../SVGPathCommandCurveTo.m; sourceTree = "<group>"; };
+		ADFF429B14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandEllipticalArc.h; path = ../SVGPathCommandEllipticalArc.h; sourceTree = "<group>"; };
+		ADFF429C14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandEllipticalArc.m; path = ../SVGPathCommandEllipticalArc.m; sourceTree = "<group>"; };
+		ADFF429D14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandHorizontalLineTo.h; path = ../SVGPathCommandHorizontalLineTo.h; sourceTree = "<group>"; };
+		ADFF429E14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandHorizontalLineTo.m; path = ../SVGPathCommandHorizontalLineTo.m; sourceTree = "<group>"; };
+		ADFF429F14DAB5F20085AA96 /* SVGPathCommandLineTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandLineTo.h; path = ../SVGPathCommandLineTo.h; sourceTree = "<group>"; };
+		ADFF42A014DAB5F20085AA96 /* SVGPathCommandLineTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandLineTo.m; path = ../SVGPathCommandLineTo.m; sourceTree = "<group>"; };
+		ADFF42A114DAB5F20085AA96 /* SVGPathCommandMoveTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandMoveTo.h; path = ../SVGPathCommandMoveTo.h; sourceTree = "<group>"; };
+		ADFF42A214DAB5F20085AA96 /* SVGPathCommandMoveTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandMoveTo.m; path = ../SVGPathCommandMoveTo.m; sourceTree = "<group>"; };
+		ADFF42A314DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandQuadraticBezierCurveTo.h; path = ../SVGPathCommandQuadraticBezierCurveTo.h; sourceTree = "<group>"; };
+		ADFF42A414DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandQuadraticBezierCurveTo.m; path = ../SVGPathCommandQuadraticBezierCurveTo.m; sourceTree = "<group>"; };
+		ADFF42A514DAB5F20085AA96 /* SVGPathCommandResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandResolver.h; path = ../SVGPathCommandResolver.h; sourceTree = "<group>"; };
+		ADFF42A614DAB5F20085AA96 /* SVGPathCommandResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandResolver.m; path = ../SVGPathCommandResolver.m; sourceTree = "<group>"; };
+		ADFF42A714DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandSmoothCurveTo.h; path = ../SVGPathCommandSmoothCurveTo.h; sourceTree = "<group>"; };
+		ADFF42A814DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandSmoothCurveTo.m; path = ../SVGPathCommandSmoothCurveTo.m; sourceTree = "<group>"; };
+		ADFF42A914DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandSmoothQuadraticBezierCurveTo.h; path = ../SVGPathCommandSmoothQuadraticBezierCurveTo.h; sourceTree = "<group>"; };
+		ADFF42AA14DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandSmoothQuadraticBezierCurveTo.m; path = ../SVGPathCommandSmoothQuadraticBezierCurveTo.m; sourceTree = "<group>"; };
+		ADFF42AB14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathCommandVerticalLineTo.h; path = ../SVGPathCommandVerticalLineTo.h; sourceTree = "<group>"; };
+		ADFF42AC14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathCommandVerticalLineTo.m; path = ../SVGPathCommandVerticalLineTo.m; sourceTree = "<group>"; };
+		ADFF42AD14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGPathOutlineVerticesCollector.h; path = ../SVGPathOutlineVerticesCollector.h; sourceTree = "<group>"; };
+		ADFF42AE14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGPathOutlineVerticesCollector.m; path = ../SVGPathOutlineVerticesCollector.m; sourceTree = "<group>"; };
+		ADFF42AF14DAB5F20085AA96 /* SVGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGRect.h; path = ../SVGRect.h; sourceTree = "<group>"; };
+		ADFF42B014DAB5F20085AA96 /* SVGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGRect.m; path = ../SVGRect.m; sourceTree = "<group>"; };
+		ADFF42B114DAB5F20085AA96 /* SVGShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGShape.h; path = ../SVGShape.h; sourceTree = "<group>"; };
+		ADFF42B214DAB5F20085AA96 /* SVGShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGShape.m; path = ../SVGShape.m; sourceTree = "<group>"; };
+		ADFF42B314DAB5F20085AA96 /* SVGShapeAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGShapeAttribute.h; path = ../SVGShapeAttribute.h; sourceTree = "<group>"; };
+		ADFF42B414DAB5F20085AA96 /* SVGShapeAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGShapeAttribute.m; path = ../SVGShapeAttribute.m; sourceTree = "<group>"; };
+		ADFF42B514DAB5F20085AA96 /* SVGShapeAttributeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGShapeAttributeColor.h; path = ../SVGShapeAttributeColor.h; sourceTree = "<group>"; };
+		ADFF42B614DAB5F20085AA96 /* SVGShapeAttributeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGShapeAttributeColor.m; path = ../SVGShapeAttributeColor.m; sourceTree = "<group>"; };
+		ADFF42B714DAB5F20085AA96 /* SVGShapeAttributeFillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGShapeAttributeFillColor.h; path = ../SVGShapeAttributeFillColor.h; sourceTree = "<group>"; };
+		ADFF42B814DAB5F20085AA96 /* SVGShapeAttributeFillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGShapeAttributeFillColor.m; path = ../SVGShapeAttributeFillColor.m; sourceTree = "<group>"; };
+		ADFF42B914DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGShapeAttributeStrokeWidth.h; path = ../SVGShapeAttributeStrokeWidth.h; sourceTree = "<group>"; };
+		ADFF42BA14DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGShapeAttributeStrokeWidth.m; path = ../SVGShapeAttributeStrokeWidth.m; sourceTree = "<group>"; };
+		ADFF42BB14DAB5F20085AA96 /* SVGShapeOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGShapeOutline.h; path = ../SVGShapeOutline.h; sourceTree = "<group>"; };
+		ADFF42BC14DAB5F20085AA96 /* SVGShapeOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGShapeOutline.m; path = ../SVGShapeOutline.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADFF41EB14DAB52B0085AA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF41F214DAB52B0085AA96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFF41FE14DAB53E0085AA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF420314DAB53E0085AA96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		ADFF41DE14DAB3970085AA96 = {
 			isa = PBXGroup;
 			children = (
+				ADFF41F314DAB52B0085AA96 /* SVG-iOS */,
+				ADFF420814DAB53E0085AA96 /* SVG-Mac */,
+				ADFF428514DAB5C30085AA96 /* ObjectiveSVG */,
+				ADFF41F014DAB52B0085AA96 /* Frameworks */,
+				ADFF41EF14DAB52B0085AA96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		ADFF41EF14DAB52B0085AA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF41EE14DAB52B0085AA96 /* libSVG-iOS.a */,
+				ADFF420114DAB53E0085AA96 /* SVG-Mac.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADFF41F014DAB52B0085AA96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF41F114DAB52B0085AA96 /* Foundation.framework */,
+				ADFF420214DAB53E0085AA96 /* Cocoa.framework */,
+				ADFF420414DAB53E0085AA96 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADFF41F314DAB52B0085AA96 /* SVG-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF41F414DAB52B0085AA96 /* Supporting Files */,
+			);
+			path = "SVG-iOS";
+			sourceTree = "<group>";
+		};
+		ADFF41F414DAB52B0085AA96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF41F514DAB52B0085AA96 /* SVG-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADFF420414DAB53E0085AA96 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF420514DAB53E0085AA96 /* AppKit.framework */,
+				ADFF420614DAB53E0085AA96 /* CoreData.framework */,
+				ADFF420714DAB53E0085AA96 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ADFF420814DAB53E0085AA96 /* SVG-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF420914DAB53E0085AA96 /* Supporting Files */,
+			);
+			path = "SVG-Mac";
+			sourceTree = "<group>";
+		};
+		ADFF420914DAB53E0085AA96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF420A14DAB53E0085AA96 /* SVG-Mac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADFF428514DAB5C30085AA96 /* ObjectiveSVG */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF428614DAB5F20085AA96 /* SVGDocument.h */,
+				ADFF428714DAB5F20085AA96 /* SVGDocument.m */,
+				ADFF428814DAB5F20085AA96 /* SVGElement.h */,
+				ADFF428914DAB5F20085AA96 /* SVGEllipse.h */,
+				ADFF428A14DAB5F20085AA96 /* SVGEllipse.m */,
+				ADFF428B14DAB5F20085AA96 /* SVGGeometry.h */,
+				ADFF428C14DAB5F20085AA96 /* SVGGeometry.m */,
+				ADFF428D14DAB5F20085AA96 /* SVGHeader.h */,
+				ADFF428E14DAB5F20085AA96 /* SVGHeader.m */,
+				ADFF428F14DAB5F20085AA96 /* SVGPath.h */,
+				ADFF429014DAB5F20085AA96 /* SVGPath.m */,
+				ADFF429114DAB5F20085AA96 /* SVGPathCommand.h */,
+				ADFF429214DAB5F20085AA96 /* SVGPathCommand.m */,
+				ADFF429314DAB5F20085AA96 /* SVGPathCommandAccumulator.h */,
+				ADFF429414DAB5F20085AA96 /* SVGPathCommandAccumulator.m */,
+				ADFF429514DAB5F20085AA96 /* SVGPathCommandClosePath.h */,
+				ADFF429614DAB5F20085AA96 /* SVGPathCommandClosePath.m */,
+				ADFF429714DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h */,
+				ADFF429814DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m */,
+				ADFF429914DAB5F20085AA96 /* SVGPathCommandCurveTo.h */,
+				ADFF429A14DAB5F20085AA96 /* SVGPathCommandCurveTo.m */,
+				ADFF429B14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h */,
+				ADFF429C14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m */,
+				ADFF429D14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h */,
+				ADFF429E14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m */,
+				ADFF429F14DAB5F20085AA96 /* SVGPathCommandLineTo.h */,
+				ADFF42A014DAB5F20085AA96 /* SVGPathCommandLineTo.m */,
+				ADFF42A114DAB5F20085AA96 /* SVGPathCommandMoveTo.h */,
+				ADFF42A214DAB5F20085AA96 /* SVGPathCommandMoveTo.m */,
+				ADFF42A314DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h */,
+				ADFF42A414DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m */,
+				ADFF42A514DAB5F20085AA96 /* SVGPathCommandResolver.h */,
+				ADFF42A614DAB5F20085AA96 /* SVGPathCommandResolver.m */,
+				ADFF42A714DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h */,
+				ADFF42A814DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m */,
+				ADFF42A914DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h */,
+				ADFF42AA14DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m */,
+				ADFF42AB14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h */,
+				ADFF42AC14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m */,
+				ADFF42AD14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h */,
+				ADFF42AE14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m */,
+				ADFF42AF14DAB5F20085AA96 /* SVGRect.h */,
+				ADFF42B014DAB5F20085AA96 /* SVGRect.m */,
+				ADFF42B114DAB5F20085AA96 /* SVGShape.h */,
+				ADFF42B214DAB5F20085AA96 /* SVGShape.m */,
+				ADFF42B314DAB5F20085AA96 /* SVGShapeAttribute.h */,
+				ADFF42B414DAB5F20085AA96 /* SVGShapeAttribute.m */,
+				ADFF42B514DAB5F20085AA96 /* SVGShapeAttributeColor.h */,
+				ADFF42B614DAB5F20085AA96 /* SVGShapeAttributeColor.m */,
+				ADFF42B714DAB5F20085AA96 /* SVGShapeAttributeFillColor.h */,
+				ADFF42B814DAB5F20085AA96 /* SVGShapeAttributeFillColor.m */,
+				ADFF42B914DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h */,
+				ADFF42BA14DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m */,
+				ADFF42BB14DAB5F20085AA96 /* SVGShapeOutline.h */,
+				ADFF42BC14DAB5F20085AA96 /* SVGShapeOutline.m */,
+			);
+			name = ObjectiveSVG;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADFF41EC14DAB52B0085AA96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF42BD14DAB5F20085AA96 /* SVGDocument.h in Headers */,
+				ADFF42C114DAB5F20085AA96 /* SVGElement.h in Headers */,
+				ADFF42C314DAB5F20085AA96 /* SVGEllipse.h in Headers */,
+				ADFF42C714DAB5F20085AA96 /* SVGGeometry.h in Headers */,
+				ADFF42CB14DAB5F20085AA96 /* SVGHeader.h in Headers */,
+				ADFF42CF14DAB5F20085AA96 /* SVGPath.h in Headers */,
+				ADFF42D314DAB5F20085AA96 /* SVGPathCommand.h in Headers */,
+				ADFF42D714DAB5F20085AA96 /* SVGPathCommandAccumulator.h in Headers */,
+				ADFF42DB14DAB5F20085AA96 /* SVGPathCommandClosePath.h in Headers */,
+				ADFF42DF14DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h in Headers */,
+				ADFF42E314DAB5F20085AA96 /* SVGPathCommandCurveTo.h in Headers */,
+				ADFF42E714DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h in Headers */,
+				ADFF42EB14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h in Headers */,
+				ADFF42EF14DAB5F20085AA96 /* SVGPathCommandLineTo.h in Headers */,
+				ADFF42F314DAB5F20085AA96 /* SVGPathCommandMoveTo.h in Headers */,
+				ADFF42F714DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h in Headers */,
+				ADFF42FB14DAB5F20085AA96 /* SVGPathCommandResolver.h in Headers */,
+				ADFF42FF14DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h in Headers */,
+				ADFF430314DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h in Headers */,
+				ADFF430714DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h in Headers */,
+				ADFF430B14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h in Headers */,
+				ADFF430F14DAB5F20085AA96 /* SVGRect.h in Headers */,
+				ADFF431314DAB5F20085AA96 /* SVGShape.h in Headers */,
+				ADFF431714DAB5F20085AA96 /* SVGShapeAttribute.h in Headers */,
+				ADFF431B14DAB5F20085AA96 /* SVGShapeAttributeColor.h in Headers */,
+				ADFF431F14DAB5F20085AA96 /* SVGShapeAttributeFillColor.h in Headers */,
+				ADFF432314DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h in Headers */,
+				ADFF432714DAB5F20085AA96 /* SVGShapeOutline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFF41FF14DAB53E0085AA96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF42BE14DAB5F20085AA96 /* SVGDocument.h in Headers */,
+				ADFF42C214DAB5F20085AA96 /* SVGElement.h in Headers */,
+				ADFF42C414DAB5F20085AA96 /* SVGEllipse.h in Headers */,
+				ADFF42C814DAB5F20085AA96 /* SVGGeometry.h in Headers */,
+				ADFF42CC14DAB5F20085AA96 /* SVGHeader.h in Headers */,
+				ADFF42D014DAB5F20085AA96 /* SVGPath.h in Headers */,
+				ADFF42D414DAB5F20085AA96 /* SVGPathCommand.h in Headers */,
+				ADFF42D814DAB5F20085AA96 /* SVGPathCommandAccumulator.h in Headers */,
+				ADFF42DC14DAB5F20085AA96 /* SVGPathCommandClosePath.h in Headers */,
+				ADFF42E014DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.h in Headers */,
+				ADFF42E414DAB5F20085AA96 /* SVGPathCommandCurveTo.h in Headers */,
+				ADFF42E814DAB5F20085AA96 /* SVGPathCommandEllipticalArc.h in Headers */,
+				ADFF42EC14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.h in Headers */,
+				ADFF42F014DAB5F20085AA96 /* SVGPathCommandLineTo.h in Headers */,
+				ADFF42F414DAB5F20085AA96 /* SVGPathCommandMoveTo.h in Headers */,
+				ADFF42F814DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.h in Headers */,
+				ADFF42FC14DAB5F20085AA96 /* SVGPathCommandResolver.h in Headers */,
+				ADFF430014DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.h in Headers */,
+				ADFF430414DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.h in Headers */,
+				ADFF430814DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.h in Headers */,
+				ADFF430C14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.h in Headers */,
+				ADFF431014DAB5F20085AA96 /* SVGRect.h in Headers */,
+				ADFF431414DAB5F20085AA96 /* SVGShape.h in Headers */,
+				ADFF431814DAB5F20085AA96 /* SVGShapeAttribute.h in Headers */,
+				ADFF431C14DAB5F20085AA96 /* SVGShapeAttributeColor.h in Headers */,
+				ADFF432014DAB5F20085AA96 /* SVGShapeAttributeFillColor.h in Headers */,
+				ADFF432414DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.h in Headers */,
+				ADFF432814DAB5F20085AA96 /* SVGShapeOutline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ADFF41ED14DAB52B0085AA96 /* SVG-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFF41FB14DAB52B0085AA96 /* Build configuration list for PBXNativeTarget "SVG-iOS" */;
+			buildPhases = (
+				ADFF41EA14DAB52B0085AA96 /* Sources */,
+				ADFF41EB14DAB52B0085AA96 /* Frameworks */,
+				ADFF41EC14DAB52B0085AA96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SVG-iOS";
+			productName = "SVG-iOS";
+			productReference = ADFF41EE14DAB52B0085AA96 /* libSVG-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADFF420014DAB53E0085AA96 /* SVG-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFF420E14DAB53E0085AA96 /* Build configuration list for PBXNativeTarget "SVG-Mac" */;
+			buildPhases = (
+				ADFF41FD14DAB53E0085AA96 /* Sources */,
+				ADFF41FE14DAB53E0085AA96 /* Frameworks */,
+				ADFF41FF14DAB53E0085AA96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SVG-Mac";
+			productName = "SVG-Mac";
+			productReference = ADFF420114DAB53E0085AA96 /* SVG-Mac.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		ADFF41E014DAB3970085AA96 /* Project object */ = {
@@ -29,12 +468,86 @@
 				en,
 			);
 			mainGroup = ADFF41DE14DAB3970085AA96;
+			productRefGroup = ADFF41EF14DAB52B0085AA96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				ADFF41ED14DAB52B0085AA96 /* SVG-iOS */,
+				ADFF420014DAB53E0085AA96 /* SVG-Mac */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADFF41EA14DAB52B0085AA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF42BF14DAB5F20085AA96 /* SVGDocument.m in Sources */,
+				ADFF42C514DAB5F20085AA96 /* SVGEllipse.m in Sources */,
+				ADFF42C914DAB5F20085AA96 /* SVGGeometry.m in Sources */,
+				ADFF42CD14DAB5F20085AA96 /* SVGHeader.m in Sources */,
+				ADFF42D114DAB5F20085AA96 /* SVGPath.m in Sources */,
+				ADFF42D514DAB5F20085AA96 /* SVGPathCommand.m in Sources */,
+				ADFF42D914DAB5F20085AA96 /* SVGPathCommandAccumulator.m in Sources */,
+				ADFF42DD14DAB5F20085AA96 /* SVGPathCommandClosePath.m in Sources */,
+				ADFF42E114DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m in Sources */,
+				ADFF42E514DAB5F20085AA96 /* SVGPathCommandCurveTo.m in Sources */,
+				ADFF42E914DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m in Sources */,
+				ADFF42ED14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m in Sources */,
+				ADFF42F114DAB5F20085AA96 /* SVGPathCommandLineTo.m in Sources */,
+				ADFF42F514DAB5F20085AA96 /* SVGPathCommandMoveTo.m in Sources */,
+				ADFF42F914DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m in Sources */,
+				ADFF42FD14DAB5F20085AA96 /* SVGPathCommandResolver.m in Sources */,
+				ADFF430114DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m in Sources */,
+				ADFF430514DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m in Sources */,
+				ADFF430914DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m in Sources */,
+				ADFF430D14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m in Sources */,
+				ADFF431114DAB5F20085AA96 /* SVGRect.m in Sources */,
+				ADFF431514DAB5F20085AA96 /* SVGShape.m in Sources */,
+				ADFF431914DAB5F20085AA96 /* SVGShapeAttribute.m in Sources */,
+				ADFF431D14DAB5F20085AA96 /* SVGShapeAttributeColor.m in Sources */,
+				ADFF432114DAB5F20085AA96 /* SVGShapeAttributeFillColor.m in Sources */,
+				ADFF432514DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m in Sources */,
+				ADFF432914DAB5F20085AA96 /* SVGShapeOutline.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFF41FD14DAB53E0085AA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF42C014DAB5F20085AA96 /* SVGDocument.m in Sources */,
+				ADFF42C614DAB5F20085AA96 /* SVGEllipse.m in Sources */,
+				ADFF42CA14DAB5F20085AA96 /* SVGGeometry.m in Sources */,
+				ADFF42CE14DAB5F20085AA96 /* SVGHeader.m in Sources */,
+				ADFF42D214DAB5F20085AA96 /* SVGPath.m in Sources */,
+				ADFF42D614DAB5F20085AA96 /* SVGPathCommand.m in Sources */,
+				ADFF42DA14DAB5F20085AA96 /* SVGPathCommandAccumulator.m in Sources */,
+				ADFF42DE14DAB5F20085AA96 /* SVGPathCommandClosePath.m in Sources */,
+				ADFF42E214DAB5F20085AA96 /* SVGPathCommandCurveRemembrance.m in Sources */,
+				ADFF42E614DAB5F20085AA96 /* SVGPathCommandCurveTo.m in Sources */,
+				ADFF42EA14DAB5F20085AA96 /* SVGPathCommandEllipticalArc.m in Sources */,
+				ADFF42EE14DAB5F20085AA96 /* SVGPathCommandHorizontalLineTo.m in Sources */,
+				ADFF42F214DAB5F20085AA96 /* SVGPathCommandLineTo.m in Sources */,
+				ADFF42F614DAB5F20085AA96 /* SVGPathCommandMoveTo.m in Sources */,
+				ADFF42FA14DAB5F20085AA96 /* SVGPathCommandQuadraticBezierCurveTo.m in Sources */,
+				ADFF42FE14DAB5F20085AA96 /* SVGPathCommandResolver.m in Sources */,
+				ADFF430214DAB5F20085AA96 /* SVGPathCommandSmoothCurveTo.m in Sources */,
+				ADFF430614DAB5F20085AA96 /* SVGPathCommandSmoothQuadraticBezierCurveTo.m in Sources */,
+				ADFF430A14DAB5F20085AA96 /* SVGPathCommandVerticalLineTo.m in Sources */,
+				ADFF430E14DAB5F20085AA96 /* SVGPathOutlineVerticesCollector.m in Sources */,
+				ADFF431214DAB5F20085AA96 /* SVGRect.m in Sources */,
+				ADFF431614DAB5F20085AA96 /* SVGShape.m in Sources */,
+				ADFF431A14DAB5F20085AA96 /* SVGShapeAttribute.m in Sources */,
+				ADFF431E14DAB5F20085AA96 /* SVGShapeAttributeColor.m in Sources */,
+				ADFF432214DAB5F20085AA96 /* SVGShapeAttributeFillColor.m in Sources */,
+				ADFF432614DAB5F20085AA96 /* SVGShapeAttributeStrokeWidth.m in Sources */,
+				ADFF432A14DAB5F20085AA96 /* SVGShapeOutline.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		ADFF41E514DAB3970085AA96 /* Debug */ = {
@@ -49,6 +562,113 @@
 			};
 			name = Release;
 		};
+		ADFF41F914DAB52B0085AA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/SVG_iOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVG-iOS/SVG-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADFF41FA14DAB52B0085AA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/SVG_iOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVG-iOS/SVG-iOS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADFF420F14DAB53E0085AA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVG-Mac/SVG-Mac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ADFF421014DAB53E0085AA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVG-Mac/SVG-Mac-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +680,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		ADFF41FB14DAB52B0085AA96 /* Build configuration list for PBXNativeTarget "SVG-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFF41F914DAB52B0085AA96 /* Debug */,
+				ADFF41FA14DAB52B0085AA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADFF420E14DAB53E0085AA96 /* Build configuration list for PBXNativeTarget "SVG-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFF420F14DAB53E0085AA96 /* Debug */,
+				ADFF421014DAB53E0085AA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
