@@ -129,6 +129,14 @@
 		ADFF434D14DAB68C0085AA96 /* libSVG-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFF41EE14DAB52B0085AA96 /* libSVG-iOS.a */; };
 		ADFF435014DAB77F0085AA96 /* SVGView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF434F14DAB77F0085AA96 /* SVGView.m */; };
 		ADFF435214DAB81B0085AA96 /* Beastie.svg in Resources */ = {isa = PBXBuildFile; fileRef = ADFF435114DAB81B0085AA96 /* Beastie.svg */; };
+		ADFF435F14DAC0C70085AA96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFF420214DAB53E0085AA96 /* Cocoa.framework */; };
+		ADFF436514DAC0C70085AA96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADFF436314DAC0C70085AA96 /* InfoPlist.strings */; };
+		ADFF436714DAC0C70085AA96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF436614DAC0C70085AA96 /* main.m */; };
+		ADFF436E14DAC0C70085AA96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF436D14DAC0C70085AA96 /* AppDelegate.m */; };
+		ADFF437114DAC0C70085AA96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADFF436F14DAC0C70085AA96 /* MainMenu.xib */; };
+		ADFF437714DAC1000085AA96 /* SVG-Mac.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFF420114DAB53E0085AA96 /* SVG-Mac.dylib */; };
+		ADFF437A14DAC18D0085AA96 /* SVGView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFF437914DAC18D0085AA96 /* SVGView.m */; };
+		ADFF437B14DAC3420085AA96 /* Beastie.svg in Resources */ = {isa = PBXBuildFile; fileRef = ADFF435114DAB81B0085AA96 /* Beastie.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +146,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = ADFF41ED14DAB52B0085AA96;
 			remoteInfo = "SVG-iOS";
+		};
+		ADFF437514DAC0F60085AA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADFF41E014DAB3970085AA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADFF420014DAB53E0085AA96;
+			remoteInfo = "SVG-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -219,6 +234,16 @@
 		ADFF434E14DAB77F0085AA96 /* SVGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGView.h; sourceTree = "<group>"; };
 		ADFF434F14DAB77F0085AA96 /* SVGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGView.m; sourceTree = "<group>"; };
 		ADFF435114DAB81B0085AA96 /* Beastie.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Beastie.svg; sourceTree = "<group>"; };
+		ADFF435D14DAC0C70085AA96 /* Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFF436214DAC0C70085AA96 /* Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mac-Info.plist"; sourceTree = "<group>"; };
+		ADFF436414DAC0C70085AA96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADFF436614DAC0C70085AA96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADFF436814DAC0C70085AA96 /* Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mac-Prefix.pch"; sourceTree = "<group>"; };
+		ADFF436C14DAC0C70085AA96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADFF436D14DAC0C70085AA96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADFF437014DAC0C70085AA96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ADFF437814DAC18D0085AA96 /* SVGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGView.h; sourceTree = "<group>"; };
+		ADFF437914DAC18D0085AA96 /* SVGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +274,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADFF435A14DAC0C70085AA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF437714DAC1000085AA96 /* SVG-Mac.dylib in Frameworks */,
+				ADFF435F14DAC0C70085AA96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -259,6 +293,7 @@
 				ADFF428514DAB5C30085AA96 /* ObjectiveSVG */,
 				ADFF433614DAB66C0085AA96 /* iOS */,
 				ADFF41F314DAB52B0085AA96 /* SVG-iOS */,
+				ADFF436014DAC0C70085AA96 /* Mac */,
 				ADFF420814DAB53E0085AA96 /* SVG-Mac */,
 				ADFF41F014DAB52B0085AA96 /* Frameworks */,
 				ADFF41EF14DAB52B0085AA96 /* Products */,
@@ -271,6 +306,7 @@
 				ADFF41EE14DAB52B0085AA96 /* libSVG-iOS.a */,
 				ADFF420114DAB53E0085AA96 /* SVG-Mac.dylib */,
 				ADFF432F14DAB66C0085AA96 /* iOS.app */,
+				ADFF435D14DAC0C70085AA96 /* Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -415,6 +451,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ADFF436014DAC0C70085AA96 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF436C14DAC0C70085AA96 /* AppDelegate.h */,
+				ADFF436D14DAC0C70085AA96 /* AppDelegate.m */,
+				ADFF437814DAC18D0085AA96 /* SVGView.h */,
+				ADFF437914DAC18D0085AA96 /* SVGView.m */,
+				ADFF436F14DAC0C70085AA96 /* MainMenu.xib */,
+				ADFF436114DAC0C70085AA96 /* Supporting Files */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		ADFF436114DAC0C70085AA96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF436214DAC0C70085AA96 /* Mac-Info.plist */,
+				ADFF436314DAC0C70085AA96 /* InfoPlist.strings */,
+				ADFF436614DAC0C70085AA96 /* main.m */,
+				ADFF436814DAC0C70085AA96 /* Mac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -543,6 +603,24 @@
 			productReference = ADFF432F14DAB66C0085AA96 /* iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ADFF435C14DAC0C70085AA96 /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFF437214DAC0C70085AA96 /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				ADFF435914DAC0C70085AA96 /* Sources */,
+				ADFF435A14DAC0C70085AA96 /* Frameworks */,
+				ADFF435B14DAC0C70085AA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADFF437614DAC0F60085AA96 /* PBXTargetDependency */,
+			);
+			name = Mac;
+			productName = Mac;
+			productReference = ADFF435D14DAC0C70085AA96 /* Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -566,6 +644,7 @@
 				ADFF41ED14DAB52B0085AA96 /* SVG-iOS */,
 				ADFF420014DAB53E0085AA96 /* SVG-Mac */,
 				ADFF432E14DAB66C0085AA96 /* iOS */,
+				ADFF435C14DAC0C70085AA96 /* Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -578,6 +657,16 @@
 				ADFF433B14DAB66C0085AA96 /* InfoPlist.strings in Resources */,
 				ADFF434714DAB66C0085AA96 /* ViewController.xib in Resources */,
 				ADFF435214DAB81B0085AA96 /* Beastie.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFF435B14DAC0C70085AA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF436514DAC0C70085AA96 /* InfoPlist.strings in Resources */,
+				ADFF437114DAC0C70085AA96 /* MainMenu.xib in Resources */,
+				ADFF437B14DAC3420085AA96 /* Beastie.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +751,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADFF435914DAC0C70085AA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFF436714DAC0C70085AA96 /* main.m in Sources */,
+				ADFF436E14DAC0C70085AA96 /* AppDelegate.m in Sources */,
+				ADFF437A14DAC18D0085AA96 /* SVGView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -669,6 +768,11 @@
 			isa = PBXTargetDependency;
 			target = ADFF41ED14DAB52B0085AA96 /* SVG-iOS */;
 			targetProxy = ADFF434B14DAB6810085AA96 /* PBXContainerItemProxy */;
+		};
+		ADFF437614DAC0F60085AA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADFF420014DAB53E0085AA96 /* SVG-Mac */;
+			targetProxy = ADFF437514DAC0F60085AA96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -687,6 +791,22 @@
 				ADFF434614DAB66C0085AA96 /* en */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		ADFF436314DAC0C70085AA96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFF436414DAC0C70085AA96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADFF436F14DAC0C70085AA96 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFF437014DAC0C70085AA96 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -872,6 +992,61 @@
 			};
 			name = Release;
 		};
+		ADFF437314DAC0C70085AA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac/Mac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Mac/Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADFF437414DAC0C70085AA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mac/Mac-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Mac/Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -905,6 +1080,14 @@
 			buildConfigurations = (
 				ADFF434914DAB66C0085AA96 /* Debug */,
 				ADFF434A14DAB66C0085AA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADFF437214DAC0C70085AA96 /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFF437314DAC0C70085AA96 /* Debug */,
+				ADFF437414DAC0C70085AA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
