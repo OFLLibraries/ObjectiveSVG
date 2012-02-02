@@ -1,0 +1,17 @@
+#if TARGET_OS_IPHONE
+#include <CoreGraphics/CGBase.h>
+#else
+#import <Cocoa/Cocoa.h>
+#endif
+
+@interface SVGPathOutlineVerticesCollector : NSObject {
+   NSMutableArray *vertices;
+}
+@property(assign) NSMutableArray *vertices;
+
+- (void)addVertex:(CGPoint)vertex;
+- (void)addVerticesFromArray:(NSArray *)vertexArray;
+- (CGPoint)head;
+- (CGPoint)tail;
+
+@end
