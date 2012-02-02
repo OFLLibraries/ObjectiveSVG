@@ -1,9 +1,9 @@
 ObjectiveSVG
 ============
+SVG document parser and renderer for modern iOS and Mac platforms.
 
-
-Destination
------------
+Purpose
+-------
 
 It's meant to render on Core Graphics surface or texture file.
 Library is entirely written in Objective-C and can be linked against:
