@@ -6,8 +6,18 @@
 #import "SVGEllipse.h"
 #import "SVGPath.h"
 #import "SVGGeometry.h"
-#include "minmax.h"
-#include "clamp.h"
+
+static inline CGFloat min(CGFloat value1, CGFloat value2) {
+   return value1 < value2 ? value1 : value2;
+}
+
+static inline CGFloat max(CGFloat value1, CGFloat value2) {
+	return value1 > value2 ? value1 : value2;
+}
+
+static inline CGFloat clamp(CGFloat value, CGFloat min_value, CGFloat max_value) {
+   return min(max_value, max(min_value, value));
+}
 
 @interface SVGDocument(Delegate) <NSXMLParserDelegate>
 
