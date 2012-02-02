@@ -1,15 +1,20 @@
 ObjectiveSVG
 ============
 
+
 Destination
 -----------
 
 It's meant to render on Core Graphics surface or texture file.
-
 Library is entirely written in Objective-C and can be linked against:
 
 * Cocoa (Mac)
 * Cocoa Touch (iOS)
+
+License
+-------
+
+This software is released under permissive "Simplified BSD License". See LICENSE for details.
 
 Example
 -------
