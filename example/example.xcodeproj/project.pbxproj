@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADA4982C1590FC0300F6D373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4982A1590FC0300F6D373 /* ViewController.m */; };
 		ADFF41F214DAB52B0085AA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFF41F114DAB52B0085AA96 /* Foundation.framework */; };
 		ADFF420314DAB53E0085AA96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFF420214DAB53E0085AA96 /* Cocoa.framework */; };
 		ADFF42BD14DAB5F20085AA96 /* SVGDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFF428614DAB5F20085AA96 /* SVGDocument.h */; };
@@ -157,6 +158,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ADA498291590FC0300F6D373 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADA4982A1590FC0300F6D373 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ADFF41EE14DAB52B0085AA96 /* libSVG-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSVG-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFF41F114DAB52B0085AA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ADFF41F514DAB52B0085AA96 /* SVG-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVG-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -432,6 +435,8 @@
 			children = (
 				ADFF433F14DAB66C0085AA96 /* AppDelegate.h */,
 				ADFF434014DAB66C0085AA96 /* AppDelegate.m */,
+				ADA498291590FC0300F6D373 /* ViewController.h */,
+				ADA4982A1590FC0300F6D373 /* ViewController.m */,
 				ADFF434E14DAB77F0085AA96 /* SVGView.h */,
 				ADFF434F14DAB77F0085AA96 /* SVGView.m */,
 				ADFF434514DAB66C0085AA96 /* ViewController.xib */,
@@ -748,6 +753,7 @@
 				ADFF433D14DAB66C0085AA96 /* main.m in Sources */,
 				ADFF434114DAB66C0085AA96 /* AppDelegate.m in Sources */,
 				ADFF435014DAB77F0085AA96 /* SVGView.m in Sources */,
+				ADA4982C1590FC0300F6D373 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,6 +1072,7 @@
 				ADFF41FA14DAB52B0085AA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADFF420E14DAB53E0085AA96 /* Build configuration list for PBXNativeTarget "SVG-Mac" */ = {
 			isa = XCConfigurationList;
@@ -1074,6 +1081,7 @@
 				ADFF421014DAB53E0085AA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADFF434814DAB66C0085AA96 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
@@ -1082,6 +1090,7 @@
 				ADFF434A14DAB66C0085AA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADFF437214DAC0C70085AA96 /* Build configuration list for PBXNativeTarget "Mac" */ = {
 			isa = XCConfigurationList;
@@ -1090,6 +1099,7 @@
 				ADFF437414DAC0C70085AA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

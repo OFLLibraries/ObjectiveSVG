@@ -37,6 +37,7 @@ static inline CGFloat clamp(CGFloat value, CGFloat min_value, CGFloat max_value)
 @implementation SVGDocument
 
 @synthesize shapes;
+@synthesize scale;
 
 - (id)init {
    if(self = [super init]) {

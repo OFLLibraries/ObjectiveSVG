@@ -16,6 +16,7 @@
    BOOL outlined;
 }
 @property(assign) NSMutableArray *shapes;
+@property(readonly) CGFloat scale;
 
 - (id)initWithData:(NSData *)data outlinedShapes:(BOOL)outlined;
 - (id)initWithContentsOfFile:(NSString *)filePath outlinedShapes:(BOOL)outlined;

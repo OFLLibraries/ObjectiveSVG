@@ -3,6 +3,8 @@
 
 @implementation SVGView
 
+@synthesize document;
+
 - (id)initWithCoder:(NSCoder *)aDecoder {
 	if((self = [super initWithCoder:aDecoder])) {
 		NSString *filename = [[NSBundle mainBundle] pathForResource:@"Beastie" ofType:@"svg"];
@@ -18,7 +20,6 @@
 
 - (void)drawRect:(CGRect)rect {
 	CGContextRef context = UIGraphicsGetCurrentContext();
-	[document resizeTo:rect.size withPadding:0.05];
 	[document drawInContext:context withDebug:NO];
 }
 
